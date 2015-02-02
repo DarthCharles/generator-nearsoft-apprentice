@@ -1,15 +1,4 @@
-# generator-nearsoft-apprentice [![Build Status](https://secure.travis-ci.org/DarthCharles/generator-nearsoft-apprentice.png?branch=master)](https://travis-ci.org/DarthCharles/generator-nearsoft-apprentice)
-
-> [Yeoman](http://yeoman.io) generator
-
-
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
+### Nearsoft Apprentice Yeoman Generator
 
 Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
 
