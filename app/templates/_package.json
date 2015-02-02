@@ -1,0 +1,21 @@
+{
+    "name": "nearsoft-aprentice",
+    "version": "1.0.0",
+    "description": "Nearsoft Apprentice Yeoman",
+    "main": "app/index.js",
+    "author": {
+        "name": "<%= realname %>",
+        "email": "<%= email %>",
+        "url": "<%= githubUrl %>"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "grunt mochaTest"
+    },
+    "keywords": [
+        "nearsoft-apprentice",
+        "yeoman"
+    ],
+    "devDependencies": {},
+    "dependencies": {}
+}

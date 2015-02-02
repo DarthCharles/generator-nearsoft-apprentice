@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-nearsoft-apprentice' ]; then cd .. && eval "mv $currentfolder generator-nearsoft-apprentice" && cd generator-nearsoft-apprentice; fi
