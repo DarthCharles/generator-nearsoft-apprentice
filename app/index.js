@@ -37,7 +37,7 @@ module.exports = generators.Base.extend({
 
         // Have Yeoman greet the user.
         this.log(yosay(
-          'Welcome to the good' + chalk.red('Nearsoft\'s Apprentice') + ' generator!'
+          'Welcome to the fantastic ' + chalk.red('Nearsoft\'s Apprentice') + ' generator!'
           ));
 
         var prompts = [{
