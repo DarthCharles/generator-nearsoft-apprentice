@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Nearsoft Apprentice Yeoman",
     "main": "app/index.js",
+    "repository": "<%= githubUser %>/nearsoft-aprentice",
     "author": {
         "name": "<%= realname %>",
         "email": "<%= email %>",
