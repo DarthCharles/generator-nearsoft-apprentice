@@ -1,89 +1,118 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '-g',
-1 verbose cli   'generator-nearsoft-apprentice' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.35
-4 verbose cache add [ 'generator-nearsoft-apprentice', null ]
-5 verbose cache add name=undefined spec="generator-nearsoft-apprentice" args=["generator-nearsoft-apprentice",null]
-6 verbose parsed url { protocol: null,
-6 verbose parsed url   slashes: null,
-6 verbose parsed url   auth: null,
-6 verbose parsed url   host: null,
-6 verbose parsed url   port: null,
-6 verbose parsed url   hostname: null,
-6 verbose parsed url   hash: null,
-6 verbose parsed url   search: null,
-6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'generator-nearsoft-apprentice',
-6 verbose parsed url   path: 'generator-nearsoft-apprentice',
-6 verbose parsed url   href: 'generator-nearsoft-apprentice' }
-7 silly lockFile ad0ce679-generator-nearsoft-apprentice generator-nearsoft-apprentice
-8 verbose lock generator-nearsoft-apprentice /Users/Charles/.npm/ad0ce679-generator-nearsoft-apprentice.lock
-9 silly lockFile ad0ce679-generator-nearsoft-apprentice generator-nearsoft-apprentice
-10 silly lockFile ad0ce679-generator-nearsoft-apprentice generator-nearsoft-apprentice
-11 verbose addNamed [ 'generator-nearsoft-apprentice', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile bce09645-generator-nearsoft-apprentice generator-nearsoft-apprentice@
-14 verbose lock generator-nearsoft-apprentice@ /Users/Charles/.npm/bce09645-generator-nearsoft-apprentice.lock
-15 silly addNameRange { name: 'generator-nearsoft-apprentice',
-15 silly addNameRange   range: '*',
-15 silly addNameRange   hasData: false }
-16 verbose request where is /generator-nearsoft-apprentice
-17 verbose request registry https://registry.npmjs.org/
-18 verbose request id 6ba84dea84e62bc5
-19 verbose url raw /generator-nearsoft-apprentice
-20 verbose url resolving [ 'https://registry.npmjs.org/',
-20 verbose url resolving   './generator-nearsoft-apprentice' ]
-21 verbose url resolved https://registry.npmjs.org/generator-nearsoft-apprentice
-22 verbose request where is https://registry.npmjs.org/generator-nearsoft-apprentice
-23 info trying registry request attempt 1 at 16:55:54
-24 http GET https://registry.npmjs.org/generator-nearsoft-apprentice
-25 http 404 https://registry.npmjs.org/generator-nearsoft-apprentice
-26 verbose headers { date: 'Mon, 02 Feb 2015 23:55:54 GMT',
-26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-26 verbose headers   'content-type': 'application/json',
-26 verbose headers   'cache-control': 'max-age=0',
-26 verbose headers   'content-length': '52',
-26 verbose headers   'accept-ranges': 'bytes',
-26 verbose headers   via: '1.1 varnish',
-26 verbose headers   age: '0',
-26 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
-26 verbose headers   'x-cache': 'MISS',
-26 verbose headers   'x-cache-hits': '0',
-26 verbose headers   'x-timer': 'S1422921354.597052,VS0,VE37',
-26 verbose headers   'keep-alive': 'timeout=10, max=50',
-26 verbose headers   connection: 'Keep-Alive' }
-27 silly registry.get cb [ 404,
-27 silly registry.get   { date: 'Mon, 02 Feb 2015 23:55:54 GMT',
-27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 silly registry.get     'content-type': 'application/json',
-27 silly registry.get     'cache-control': 'max-age=0',
-27 silly registry.get     'content-length': '52',
-27 silly registry.get     'accept-ranges': 'bytes',
-27 silly registry.get     via: '1.1 varnish',
-27 silly registry.get     age: '0',
-27 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
-27 silly registry.get     'x-cache': 'MISS',
-27 silly registry.get     'x-cache-hits': '0',
-27 silly registry.get     'x-timer': 'S1422921354.597052,VS0,VE37',
-27 silly registry.get     'keep-alive': 'timeout=10, max=50',
-27 silly registry.get     connection: 'Keep-Alive' } ]
-28 silly lockFile bce09645-generator-nearsoft-apprentice generator-nearsoft-apprentice@
-29 silly lockFile bce09645-generator-nearsoft-apprentice generator-nearsoft-apprentice@
-30 error 404 404 Not Found: generator-nearsoft-apprentice
-30 error 404
-30 error 404 'generator-nearsoft-apprentice' is not in the npm registry.
-30 error 404 You should bug the author to publish it
-30 error 404
-30 error 404 Note that you can also install from a
-30 error 404 tarball, folder, or http url, or git url.
-31 error System Darwin 14.0.0
-32 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-nearsoft-apprentice"
-33 error cwd /Users/Charles/generator-nearsoft-apprentice
-34 error node -v v0.10.35
-35 error npm -v 1.4.28
-36 error code E404
-37 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Charles/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz
+12 verbose folder .
+13 info prepublish generator-nearsoft-apprentice@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Charles/.npm/1f1177db-tar.lock
+16 silly lockFile 29fea04a-oft-apprentice-0-0-0-package-tgz tar:///Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz
+17 verbose lock tar:///Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz /Users/Charles/.npm/29fea04a-oft-apprentice-0-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 29fea04a-oft-apprentice-0-0-0-package-tgz tar:///Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz
+21 silly lockFile 29fea04a-oft-apprentice-0-0-0-package-tgz tar:///Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package.tgz
+22 silly lockFile ca846a6b-earsoft-apprentice-0-0-0-package /Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package
+23 verbose lock /Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package /Users/Charles/.npm/ca846a6b-earsoft-apprentice-0-0-0-package.lock
+24 silly lockFile ca846a6b-earsoft-apprentice-0-0-0-package /Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package
+25 silly lockFile ca846a6b-earsoft-apprentice-0-0-0-package /Users/Charles/.npm/generator-nearsoft-apprentice/0.0.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'generator-nearsoft-apprentice',
+28 silly publish   version: '0.0.0',
+28 silly publish   description: 'Yeoman generator',
+28 silly publish   license: 'MIT',
+28 silly publish   main: 'app/index.js',
+28 silly publish   repository:
+28 silly publish    { type: 'git',
+28 silly publish      url: 'https://github.com/DarthCharles/generator-nearsoft-apprentice' },
+28 silly publish   author:
+28 silly publish    { name: 'Carlos Contreiras',
+28 silly publish      email: 'carlos.darth@gmail.com',
+28 silly publish      url: 'https://github.com/DarthCharles' },
+28 silly publish   engines: { node: '>=0.10.0' },
+28 silly publish   scripts: { test: 'mocha' },
+28 silly publish   files: [ 'app' ],
+28 silly publish   keywords: [ 'yeoman-generator' ],
+28 silly publish   dependencies:
+28 silly publish    { chalk: '^0.5.0',
+28 silly publish      github: '^0.2.3',
+28 silly publish      'yeoman-generator': '^0.18.0',
+28 silly publish      yosay: '^0.3.0' },
+28 silly publish   devDependencies: { mocha: '*' },
+28 silly publish   peerDependencies: { yo: '>=1.0.0' },
+28 silly publish   readme: '### Nearsoft Apprentice Yeoman Generator\n\nYeoman generator for setting up a TDD environment for the weekly Nearsoft\'s Apprentice. \n\n##Installing Yeoman\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\nnpm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-nearsoft-apprentice from npm, run:\n\n```bash\nnpm install -g generator-nearsoft-apprentice\n```\n\nFinally, initiate the generator:\n\n```bash\nyo nearsoft-apprentice\n```\n\n## License\n\nMIT\n\n##Thank You!\n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: '3c529dfebd6afd81e99a60dd2c81f37132d54dfc',
+28 silly publish   bugs: { url: 'https://github.com/DarthCharles/generator-nearsoft-apprentice/issues' },
+28 silly publish   homepage: 'https://github.com/DarthCharles/generator-nearsoft-apprentice',
+28 silly publish   _id: 'generator-nearsoft-apprentice@0.0.0',
+28 silly publish   _shasum: '1fd315a1f088322cf6b2c773f3b1656e41edeb4e',
+28 silly publish   _from: '.' }
+29 verbose request where is /generator-nearsoft-apprentice
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 6999dab17ccfbcd1
+32 verbose url raw /generator-nearsoft-apprentice
+33 verbose url resolving [ 'https://registry.npmjs.org/',
+33 verbose url resolving   './generator-nearsoft-apprentice' ]
+34 verbose url resolved https://registry.npmjs.org/generator-nearsoft-apprentice
+35 verbose request where is https://registry.npmjs.org/generator-nearsoft-apprentice
+36 info trying registry request attempt 1 at 16:24:53
+37 http PUT https://registry.npmjs.org/generator-nearsoft-apprentice
+38 http 403 https://registry.npmjs.org/generator-nearsoft-apprentice
+39 verbose headers { date: 'Fri, 06 Feb 2015 23:24:54 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '4097',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1423265094.161645,VS0,VE71',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden cannot modify pre-existing version: 0.0.0
+41 error old={"name":"generator-nearsoft-apprentice","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/DarthCharles/generator-nearsoft-apprentice"},"author":{"name":"Carlos Contreiras","email":"carlos.darth@gmail.com","url":"https://github.com/DarthCharles"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"chalk":"^0.5.0","github":"^0.2.3","yeoman-generator":"^0.18.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"gitHead":"3c529dfebd6afd81e99a60dd2c81f37132d54dfc","bugs":{"url":"https://github.com/DarthCharles/generator-nearsoft-apprentice/issues"},"homepage":"https://github.com/DarthCharles/generator-nearsoft-apprentice","_id":"generator-nearsoft-apprentice@0.0.0","_shasum":"9616d764d6dedd59bf993b2d2676f561de91f55d","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"darthcharles","email":"carlos.darth@gmail.com"},"maintainers":[{"name":"darthcharles","email":"carlos.darth@gmail.com"}],"dist":{"shasum":"9616d764d6dedd59bf993b2d2676f561de91f55d","tarball":"http://registry.npmjs.org/generator-nearsoft-apprentice/-/generator-nearsoft-apprentice-0.0.0.tgz"}}
+41 error new={"name":"generator-nearsoft-apprentice","version":"0.0.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/DarthCharles/generator-nearsoft-apprentice"},"author":{"name":"Carlos Contreiras","email":"carlos.darth@gmail.com","url":"https://github.com/DarthCharles"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"chalk":"^0.5.0","github":"^0.2.3","yeoman-generator":"^0.18.0","yosay":"^0.3.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"### Nearsoft Apprentice Yeoman Generator\u000a\u000aYeoman generator for setting up a TDD environment for the weekly Nearsoft's Apprentice. \u000a\u000a##Installing Yeoman\u000a\u000aNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\u000a\u000a```bash\u000anpm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-nearsoft-apprentice from npm, run:\u000a\u000a```bash\u000anpm install -g generator-nearsoft-apprentice\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000ayo nearsoft-apprentice\u000a```\u000a\u000a## License\u000a\u000aMIT\u000a\u000a##Thank You!\u000a","readmeFilename":"README.md","gitHead":"3c529dfebd6afd81e99a60dd2c81f37132d54dfc","bugs":{"url":"https://github.com/DarthCharles/generator-nearsoft-apprentice/issues"},"homepage":"https://github.com/DarthCharles/generator-nearsoft-apprentice","_id":"generator-nearsoft-apprentice@0.0.0","_shasum":"1fd315a1f088322cf6b2c773f3b1656e41edeb4e","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"darthcharles","email":"carlos.darth@gmail.com"},"maintainers":[{"name":"darthcharles","email":"carlos.darth@gmail.com"}],"dist":{"shasum":"1fd315a1f088322cf6b2c773f3b1656e41edeb4e","tarball":"http://registry.npmjs.org/generator-nearsoft-apprentice/-/generator-nearsoft-apprentice-0.0.0.tgz"}}: generator-nearsoft-apprentice
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:944:16
+41 error     at process._tickCallback (node.js:442:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 14.0.0
+44 error command "node" "/usr/local/bin/npm" "publish"
+45 error cwd /Users/Charles/generator-nearsoft-apprentice
+46 error node -v v0.10.35
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]

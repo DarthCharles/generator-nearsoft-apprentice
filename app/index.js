@@ -68,12 +68,15 @@ module.exports = generators.Base.extend({
       scaffoldFolders: function() {
         this.mkdir("app");
         this.mkdir("test");
+        this.mkdir("tasks");
       },
 
       copyMainFiles: function(){
 
         this.template("_gruntfile.js", "Gruntfile.js");
+        this.template("_tasks.js", "tasks/gruntTasks.js");
         this.template("_package.json", "package.json");
+
 
 
       },
